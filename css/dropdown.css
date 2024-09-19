@@ -12,7 +12,7 @@ body {
 }
 
 .dropdown-button:hover {
-    background-color: #3e8e4100;
+    background-color: #a2ffa5;
 }
 
 .dropdown-content {
@@ -33,7 +33,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #000000;
+    background-color: #bffac46c;
     border-radius: 10px;
 }
 

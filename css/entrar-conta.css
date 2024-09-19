@@ -24,7 +24,7 @@ body{
 .formLogin {
     display: flex;
     flex-direction: column;
-    padding: 250px;
+    padding: 20vh;
     gap: 5px;
     align-items: center;
     justify-items: center;
