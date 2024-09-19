@@ -1,22 +1,20 @@
 body{
     margin: 0px;
-    background-color: #383838;
 }
 .header1{
     background-color: #34940B;
     margin: 0px;
     height: 100px;
-    
 }
-
 .dropdown-button{
     height: 100px;
     padding-right: 17px;
 }
 .buttonret{
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .titulo{
     color: white;
