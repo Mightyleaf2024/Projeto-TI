@@ -4,7 +4,7 @@ body {
 
 .dropdown-button {
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    height: 8vh;
     border: none;
     cursor: pointer;
     background-color: #14881800;
@@ -12,7 +12,7 @@ body {
 }
 
 .dropdown-button:hover {
-    background-color: #a2ffa5;
+    background-color: #a2ffa509;
 }
 
 .dropdown-content {
