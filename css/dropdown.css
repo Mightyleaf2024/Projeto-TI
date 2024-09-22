@@ -1,26 +1,28 @@
+/* Fonte padrão */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Estilos do botão dropdown */
 .dropdown-button {
     color: rgb(0, 0, 0);
-    height: 8vh;
+    height: 6vh;
     border: none;
     cursor: pointer;
-    background-color: #14881800;
+    background-color: transparent;
     text-decoration: none;
+    padding: 10px;
 }
-
-.dropdown-button:hover {
-    background-color: #a2ffa509;
-}
-
+/* Estilos do conteúdo do dropdown */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 10px;
 }
@@ -33,18 +35,65 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #bffac46c;
+    background-color: rgba(162, 255, 165, 0.233);
     border-radius: 10px;
 }
 
+/* Mostrar dropdown ao passar o mouse */
 .dropdown:hover .dropdown-content {
     display: block;
     border-radius: 10px;
 }
-.caixa{
-    background-color: #329c0546;
-    border:solid 1px;
+
+/* Estilos da caixa */
+.caixa {
+    background-color: rgba(50, 156, 5, 0.27);
+    border: solid 1px;
     border-radius: 10px;
     border-color: black;
     padding: 40px;
+    margin: 20px auto;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+/* Layout responsivo para telas grandes */
+@media (min-width: 1024px) {
+    .dropdown-content {
+        margin-right: 0;
+        right: 0; /* Garante que dropdown ficará à direita sem sair da tela */
+    }
+
+    .caixa {
+        max-width: 80%; /* Limita o tamanho da caixa para telas maiores */
+    }
+}
+
+/* Layout responsivo para telas médias (tablets) */
+@media (max-width: 1024px) {
+    .dropdown-content {
+        width: auto;
+    }
+
+    .caixa {
+        max-width: 95%; /* Ajuste para manter a caixa responsiva */
+        padding: 20px;
+    }
+}
+
+/* Layout responsivo para telas pequenas (celulares) */
+@media (max-width: 768px) {
+    .dropdown-content {
+        width: 100%; /* O dropdown ocupa toda a largura disponível */
+        left: 0;
+    }
+
+    .dropdown-button {
+        width: 100%;
+    }
+
+    .caixa {
+        padding: 10px;
+        max-width: 100%; /* Caixa ocupa 100% da largura em telas pequenas */
+    }
 }

@@ -13,7 +13,7 @@ body{
     height: 100vh;
 }
 .header1{
-    background-color: #34940B;
+    background-color: #4CAF50;
     margin: 0px;
     height: 100px;
     
@@ -24,10 +24,6 @@ body{
 }
 .img1{
     height: 100px;
-}
-.dropdown-button{
-    height: 100px;
-    padding-right: 17px;
 }
 .buttonret{
     display: flex;
@@ -134,50 +130,7 @@ body{
 }
 
 
-.dropdown-button {
-    color: white;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
-.dropdown-button:hover {
-    background-color: #3e8e41;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 10px;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-    border-radius: 10px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    border-radius: 10px;
-}
-.caixa{
-    background-color: #2e8d0546;
-    border:solid 1px;
-    border-radius: 10px;
-    border-color: black;
-    padding: 40px;
-}
 section{
 
             margin: 0;
@@ -191,4 +144,16 @@ section{
     display: flex;
     
     justify-content: center;
+}
+.material-symbols-outlined {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
 }
