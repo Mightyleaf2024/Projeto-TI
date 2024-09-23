@@ -6,33 +6,31 @@
     <link rel="stylesheet" href="../css/redef-senha.css" />
     <link rel="stylesheet" href="../css/dropdown.css">
     <link rel="stylesheet" href="../css/font.css">
-    <title>Entrada</title>
+    <title>Redefinir senha</title>
 </head>
 <body>
-    <header class ="header1">
-        <div class="buttonret">
-            <a href="entrar-conta.html" class="botao"><img src="../img/seta.jpg" alt=""class="img1"></a>
-            <h1 class="titulo">Entre com sua conta</h1>
-            <div class="dropdown">
-                <img src="../img/Menu.png " class="img1">
-                    <div class="dropdown-content">
-                        <a href="#">Plantas</a>
-                        <a href="../paginas/entrar-conta.html">Entre com uma Conta</a>
-                        <a href="../paginas/Criar-Conta.html">Cadastre uma Conta</a>
-                        <a href="#">Encerrar Sessão</a>
-            </div>
-        </div> 
-     
+    <header>
+        <a href ="entr-cria.html" ><img class="img1" src="../img/logo.png" ></a>
+        <a class="logo">Mighty Leaf</a>
+        <div class="dropdown">
+            <img src="../img/Menu.png " class="img1">
+                <div class="dropdown-content">
+                    <a href="#">Plantas</a>
+                    <a href="../paginas/log.html">Entre com uma Conta</a>
+                    <a href="../paginas/cad.html">Cadastre uma Conta</a>
+                    <a href="#">Encerrar Sessão</a>
+        </div>
     </header>
-    <section>
-        <div class="sp-form">
-            <h2>Redefina sua senha</h2>
-            <label for="email"></label>
-            <input class="email" type="email" placeholder="email" >
-            <h2>Digite o codigo que foi enviado ao seu email</h2>
-            <input class="codigo" type="text" placeholder="codigo">
-            <a class="a-link" href="mailto:email ?subject=Assunto do Email&body=Corpo do email">Clique aqui para enviar outro código por email</a>
-
+    <section class="login-section">
+        <div class="login-box">
+            <h2>Redefinir Senha</h2>
+            <form action="#" method="POST">
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="email" required>
+                <label for="codigo">Insira o codigo enviado no seu email</label>
+                <input type="code" placeholder="codigo" required>
+                <button type="submit">redefinir a senha</button>
+            </form>
         </div>
     </section>
 </body>
