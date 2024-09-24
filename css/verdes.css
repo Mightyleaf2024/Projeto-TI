@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     color: #333;
 }
 
-/* Cabeçalho */
 header {
     background-color: #4CAF50;
     color: white;
@@ -51,7 +50,7 @@ header nav ul li a:hover {
     height: 50px;
 }
 
-/* Seção principal de informações sobre plantas */
+
 main {
     padding: 40px;
     text-align: center;
@@ -80,7 +79,6 @@ main {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Rodapé */
 footer {
     background-color: #333;
     color: white;

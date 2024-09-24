@@ -7,15 +7,13 @@
     height: 7vh;
 }
 
-
-/* Estilos do corpo */
 body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #4CAF50;
     color: white;
@@ -101,7 +99,6 @@ header nav ul li a:hover {
     background-color: #45a049;
 }
 
-/* Link */
 .login-box p, .signup-box p {
     margin-top: 20px;
 }

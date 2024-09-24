@@ -1,4 +1,4 @@
-/* Estilo comum */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +8,13 @@
 .img1 {
     height: 7vh;
 }
-
-/* Estilo do corpo */
 body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #4CAF50;
     color: white;
@@ -30,7 +28,7 @@ header .logo {
     font-size: 3vh;
 }
 
-/* Formulários de Login e Cadastro */
+
 .login-section, .signup-section {
     display: flex;
     justify-content: center;
@@ -82,7 +80,7 @@ header .logo {
     background-color: #45a049;
 }
 
-/* Link */
+
 .login-box p, .signup-box p {
     margin-top: 20px;
 }
@@ -96,7 +94,6 @@ header .logo {
     text-decoration: underline;
 }
 
-/* Rodapé */
 footer {
     background-color: #333;
     color: white;
