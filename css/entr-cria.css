@@ -10,7 +10,6 @@
 
 /* Estilos do corpo */
 body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -27,7 +26,7 @@ header {
 }
 
 header .logo {
-    margin-left: 3vh;
+    margin-left: 33vh;
     font-size: 3vh;
     display: flex;
     align-items: center;
@@ -101,6 +100,7 @@ header nav ul li a:hover {
 
 .category {
     flex-basis: 22%;
+    border-radius: 10px;
     background-color: white;
     margin: 10px;
     padding: 20px;
