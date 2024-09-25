@@ -80,6 +80,7 @@ main {
 }
 
 footer {
+    margin-top:56vh;
     background-color: #333;
     color: white;
     text-align: center;
