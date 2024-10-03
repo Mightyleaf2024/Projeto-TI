@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 .img1 {
-    height: 7vh;
+    height: 10vh;
 }
 
 body {
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f4ffea;
     color: #333;
 }
 
 
 header {
-    background-color: #4CAF50;
+    background-color: #9addbb;
     color: white;
     padding: 10px 0;
     display: flex;
@@ -24,8 +24,8 @@ header {
 }
 
 header .logo {
-    margin-left: 33vh;
-    font-size: 3vh;
+    margin-left:8vh;
+    font-size: 4vh;
     display: flex;
     align-items: center;
 
@@ -42,8 +42,9 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 2vh;
 }
 
 header nav ul li a:hover {
