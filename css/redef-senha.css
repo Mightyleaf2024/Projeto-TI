@@ -48,7 +48,8 @@ header nav ul li a {
 
 header nav ul li a:hover {
     text-decoration: underline;
-}.login-section, .signup-section {
+}
+.login-section, .signup-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +62,6 @@ header nav ul li a:hover {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
     text-align: center;
 }
 
@@ -78,6 +78,8 @@ header nav ul li a:hover {
 
 .login-box input, .signup-box input {
     width: 100%;
+    font-size: 1.8vh;
+    height: 5.3vh;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;

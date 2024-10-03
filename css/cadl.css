@@ -1,19 +1,21 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.img1 {
-    height: 10vh;
-}
 
+.img1 {
+    height: 10vh;}
 body {
     line-height: 1.6;
-    background-color: #f4ffea;
     color: #333;
+    background-image: url(../img/Fundo.webp);
+    background-size: 100%;
+    background-color:rgb(255, 255, 255)
 }
-
-
+    
+    
 header {
     background-color: #9addbb;
     color: white;
@@ -22,93 +24,77 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 header .logo {
-    margin-left:38vh;
+    margin-left:8vh;
     font-size: 4vh;
     display: flex;
     align-items: center;
 
 }
 
-header nav ul {
-    list-style: none;
+
+.login-section, .signup-section {
     display: flex;
-    align-items: center;
-}
-
-header nav ul li {
-    margin: 0 10px;
-}
-
-header nav ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 2vh;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-.hero {
-    background: url('plants-banner.jpg') no-repeat center center/cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
+    align-items: center;
+    height: 80vh;
 }
 
-.hero-text {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 2vh;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-.categories {
-    padding: 40px;
-    text-align: center;
-}
-
-.categories h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.category-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.category {
-    flex-basis: 22%;
-    border-radius: 10px;
+.login-box, .signup-box {
     background-color: white;
-    margin: 10px;
-    padding: 20px;
+    padding: 40px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.category img {
-    height: 20vh;
-    object-fit: cover;
+.login-box h2, .signup-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
-.category h3 {
-    margin-top: 15px;
-    font-size: 20px;
+.login-box label, .signup-box label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.login-box input, .signup-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.8vh;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button, .signup-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover, .signup-box button:hover {
+    background-color: #45a049;
+}
+
+
+.login-box p, .signup-box p {
+    margin-top: 20px;
+}
+
+.login-box a, .signup-box a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-box a:hover, .signup-box a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -116,24 +102,5 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-}
-
-footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-footer ul li {
-    margin: 0 10px;
-}
-
-footer ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
+    margin-top:3.2vh;
 }
